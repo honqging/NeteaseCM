@@ -1,0 +1,301 @@
+*{
+    font-size: 12px;
+    /*background-color: #f3f3f3;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+
+.top_bar{
+    width: 100%;
+    height: 80px;
+    background: #1E1E1E;
+}
+
+.content_bar{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content_bar_left{
+    width: 550px;
+    float: left;
+}
+
+.content_bar_mid {
+    float: left;
+    width: 200px;
+    margin: auto 0;
+
+}
+
+.content_bar_right {
+    float: left;
+    width: 250px;
+}
+
+
+
+.content_bar_left img{
+    margin: 16px 10px 16px 0;
+    float: left;
+}
+
+.content_bar_left li{
+    list-style-type: none;
+    float: left;
+    padding: 0 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 65px;
+    color: white;
+}
+
+.search_text{
+    margin-top: 25px;
+    height: 30px;
+    width: 200px;
+}
+
+.content_bar_right img{
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.content_bar_right select{
+    float: right;
+    height: 20px;
+    width: 100px;
+    margin-top: 30px;
+    /*margin: 30px;*/
+}
+
+.side_content_bar{
+    width: 100%;
+    height: 30px;
+    background: #cb130a;
+}
+
+.side_content_bar_content{
+    width: 700px;
+    /*height: 30px;*/
+    margin: 0 auto;
+}
+
+.side_content_bar_content li{
+    float: left;
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 30px;
+    /*padding: 20px;*/
+    width: 80px;
+
+}
+
+.side_content_bar_content a{
+    text-decoration: none;
+    color: white;
+}
+
+.wrap_all{
+    background-color: #2f29f3;
+}
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    height: 1330px;
+    background-color: #51ffe7;
+
+    /*padding-left: 10px;*/
+    border: 1.5px #d61c35 solid;
+}
+
+.display_all{
+    width: 720px;
+    float: left;
+    height: inherit;
+    background-color: #8a8a8a;
+}
+
+.display{
+    width: 640px;
+    margin: 0 auto;
+    /*border: 1px red solid;*/
+}
+
+.display_up{
+    /*width: 240px;*/
+    height: 500px;
+    background-color: yellow;
+}
+
+.up_left{
+    width: 200px;
+    float: left;
+}
+
+.up_right{
+    width: 410px;
+    float: left;
+    padding-left: 30px;
+}
+
+.up_right h1{
+
+}
+
+.singer_ p,.album_ p{
+    float: left;
+    /*background-color: #fff9f8;*/
+
+}
+
+.singer_ a,.album_ a{
+    float: left;
+}
+
+.singer_{
+    height: 30px;
+    background-color: red;
+    border: 1.5px #182bd6 solid;
+
+
+}
+
+.album_{
+    margin-top: 5px;
+    /*float: none;*/
+    height: 30px;
+    border: 1.5px #182bd6 solid;
+    background-color: #3eff2b;
+
+
+}
+
+.music_op_buttons{
+    height: 20px;
+    margin-top: 5px;
+    background-color: red;
+
+}
+
+.lyric{
+    margin-top: 5px;
+    background-color: red;
+
+
+}
+
+
+
+.display_middle{
+    height: 180px;
+    /*border-left: 1.5px #27d62c solid;*/
+    background-color: rgba(75, 39, 235, 0.16);
+}
+
+.comment{
+    height: 40px;
+    background-color: red;
+    border-bottom: 2px #c80000 solid;
+
+}
+
+.comment h2{
+    font-size: 20px;
+    float: left;
+    /*vertical-align: middle;*/
+    line-height: 10px;
+}
+
+.comment p{
+    /*font-size: ;*/
+    float: left;
+    line-height: 26px;
+    padding-left: 20px;
+    color: #8a8a8a;
+}
+
+
+.music_pic{
+    height: 80px;
+}
+
+.comment_icon{
+    height: 40px;
+    background-color: green;
+
+}
+
+.display_down{
+    height: 500px;
+    background-color: #fffa0e;
+}
+
+
+.comment_list_popular{
+    height: 500px;
+    background-color: yellow;
+
+}
+
+.comment_list_popular h3{
+    font-size: 13px;
+}
+
+.popular_co{
+    background-color: red;
+    height: 20px;
+    border-bottom: 1px darkgray solid;
+}
+
+.list_popular ul{
+    /*text-decoration: none;*/
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.list_popular li{
+    height: 60px;
+    padding: 10px;
+    background-color: green;
+    /*text-decoration: none;*/
+
+}
+
+.lp_photo{
+    float: left;
+}
+
+.lp_text{
+    float: left;
+    height: 50px;
+}
+
+
+
+
+.music_info{
+    float: right;
+    width: 279px;
+    height: inherit;
+    background-color: #8a8a8a;
+    border-left: 1.5px #d61c35 solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

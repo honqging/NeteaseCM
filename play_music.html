@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>网易雨音乐</title>
+    <link rel="shortcut icon" type="image/x-icon" href="iconfont-music.png"/>
+    <!--<link href="css/index.css" rel="stylesheet" type="text/css">-->
+    <link href="css/play_music.css" rel="stylesheet" type="text/css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="top_bar">
+    <div class="content_bar">
+        <div class="content_bar_left">
+            <a href="#"><img src="images/logo.png" height="50px" width="200px"/></a>
+            <ul>
+                <li>发现音乐</li>
+                <li>我的音乐</li>
+                <li>朋友</li>
+                <li>下载客户端</li>
+            </ul>
+        </div>
+        <div class="content_bar_mid" style="float:left;">
+            <form action="" method="post">
+                <input type="text" class="search_text" onkeyup="showMusic(this.value)"/>
+            </form>
+
+        </div>
+        <div class="content_bar_right">
+            <img src="images/message01.png" height="30px" width="30px"/>
+            <img src="images/photo01.jpg" height="40px" width="40px"/>
+            <form>
+                <select onchange="showUser(this.value)">
+                    <option>asang</option>
+                    <option>eason</option>
+                </select>
+            </form>
+            <div id="showMusic" style="background-color: #fbffff;width: 100px;height: 40px;float: right;">
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="side_content_bar">
+    <div class="side_content_bar_content">
+        <ul>
+            <li><a href="#">推荐</a></li>
+            <li><a href="#">排行榜</a></li>
+            <li><a href="#">歌单</a></li>
+            <li><a href="#">主播电台</a></li>
+            <li><a href="#">歌手</a></li>
+            <li><a href="#">新碟上架</a></li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="top_bar_side">
+
+</div>
+
+<div class="main_pic">
+
+</div><!--main_pic end-->
+
+<div class="wrap_all">
+    <div class="wrap">
+        <div class="display_all">
+            <div class="display">
+            <div class="display_up">
+                <div class="up_left">
+                    <img src="images/circle.png" width="200px"/>
+
+
+                </div>
+                <div class="up_right">
+                    <h1>愚人的国度</h1>
+                    <div class="singer_"><p>歌手：</p><p><a href="">孙燕姿</a><p></div>
+                    <div class="album_"><p>专辑：</p><p><a href="">愚人的国度</a></p></div>
+                    <div class="music_op_buttons">
+                        <button type="button" onclick="">播放</button>
+                        <button type="button" onclick="">播放</button>
+                        <button type="button" onclick="">播放</button>
+                        <button type="button" onclick="">播放</button>
+                        <button type="button" onclick="">播放</button>
+
+                    </div>
+                    <div class="lyric">
+                        <pre>
+                        又一次醒来睁眼直到凌晨
+                        确认只剩自己一个人
+                        浮生六记还说着现世安稳
+                        如今已天地之分
+                        一路走来还笑得自欺欺人
+                        别问那祝福是假是真
+                        七年的存在割舍掉有多疼
+                        谁比谁陷得更深
+                        别那么坦诚
+                        分开又何必多问
+                        真相比谎话残忍
+                        别那么认真
+                        时间会淡漠伤痕
+                        </pre>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="display_middle">
+                <div class="comment">
+                    <h2>评论</h2>
+                    <p>共<span id="comment_number">111</span>条评论</p>
+                </div>
+                <div class="music_pic">
+                    <img src="images/ali1.gif" width="50px"/>
+                    <input type="text"/>
+
+                </div>
+                <div class="comment_icon">
+
+                </div>
+            </div>
+
+            <div class="display_down">
+                <div class="comment_list_popular">
+                    <div class="popular_co"><h3>精彩评论</h3></div>
+                    <div class="list_popular">
+                        <ul>
+                            <li>
+                                <div class="lp_photo"><img src="images/ali1.gif" width="50px"/></div>
+                                <div class="lp_text">
+                                    <div class="lp_text_up">
+                                        <p><a href="#">牙膏还是黑人好</a></p>
+                                        <p>突然看到这首歌名，想起些许往事。如果他还在的话，今年应该35了。</p>
+
+                                    </div>
+                                    <div class="lp_text_down">
+                                        <p class="d1">2015年10月1日</p>
+                                        <p class="d2">(255)</p>
+                                        <p class="d3">回复</p>
+                                    </div>
+                                </div>
+                                <p>hello</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="comment_list_new">
+                    <h3>最新评论</h3>
+                    <div class="list_new">
+                        <ul>
+                            <li>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+        <div class="music_info">
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="foot_text">
+
+    </div>
+</div>
+<!--wrap-all end-->
+
+</body>
+</html>
